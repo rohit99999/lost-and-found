@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lost & Found </title>
+<link type="text/css" href="cssmain.css" rel="stylesheet">
+<link href="bootstrap.css" rel="stylesheet">
+<script type="text/javascript"  src="jquery-3.3.1.js" ></script>
+<script type="text/javascript" src="scroll.js"> </script>
+<script type="text/javascript" src="myscript.js"> </script>
+</head>
+<style>
+
+.rr{
+width:350px;
+  background-color: #32CD32;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+ 
+  opacity: 0.9;
+}
+
+.rr:hover {
+  opacity:5;
+background-color:#32CD32;
+}
+</style>
+
+<body>
+<div id="header">
+<img  id="img2" src="img/LostandFoundLogo.png">
+<ul class="parent">
+<li><a href="main.html">HOME</a></li>
+			<li><a style="background-color: #32CD32;" href="lost.html">SEARCH</a></li>
+			<li><a href="found.html">FOUND</a></li>
+	<li><a href="feedbackNew.html">FEEDBACK</a></li>
+
+		<li><a style="background-color:red" href="index.jsp">LOG OUT</a></li>
+		<!-- <li><a href="test.html">TEST</a></li> -->
+</div>
+
+
+
+<div class="mycontainer">
+		<div class="container">
+			<div class="col-md-5">
+	   			 <div class="form-area">  
+	       			 <form role="form" method="post" action="lostitems.jsp">
+	        				<br style="clear:both">
+	                    <h3 style="margin-bottom: 25px; text-align: center;">Search for the lost items</h3>
+	    				
+	                    <div class="form-group">
+							<label for="item">Please Select Item</label>
+							  	<select class="form-control" id="item" name="item">
+							    	<option value="Umbrella">Umbrella</option>
+
+							       <option value="Keys">Keys</option>
+
+							       <option value="Wallet">Wallet</option>
+
+							       <option value="Cell Phone">CellPhone</option>
+
+							       <option value="PDA">PDA</option>
+
+							       <option value="Book">Book</option>
+
+							       <option value="Agenda/Portfolio">Agenda/Portfolio</option>
+
+							       <option value="Lunch Bag/Box">Lunch Bag/Box</option>
+
+							       <option value="Backpack/Briefcase">Backpack/Briefcase</option>
+
+							       <option value="Pocketbook/Purse">Pocketbook/Purse</option>
+
+							       <option value="Jacket/Sweater">Jacket/Sweater</option>
+
+							       <option value="ID/Employee Badge">ID/Employee Badge</option>
+
+							       <option value="Other">Other</option>
+							  </select>
+							  <br>
+							  
+							  <input type="text" class="form-control" id="place" name="place" placeholder="city" required>
+						</div>
+
+	        			<input type="submit" value="Search" class="rr" >
+	       		 	</form>
+	    		</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+<div  style="margin-top: 290px;" id="b4">
+<h4 style="color:red" style="font-size:40px">About Us</h4>
+<h5>Finding Things Since 2020</h5>
+<h6 style="color:red">Who Are We</h6>
+<p >We are college students , who build this website for helping people who lost thier<br> things at workplaces,college,shops etc.
+Some people found the items they can also <br> visit our website. If we found your lost thing , then we let you inform as soon as <br>possible within 48 hour .<br><br><br>
+</p>
+
+
+<div style="margin-left: 900px" id="b4pics">
+<img src="img/r1.PNG" width="260px" height="250px">
+
+</div>
+</div>
+
+
+
+	<a id="scrollup" href="">↑</a>
+
+
+
+<a id="scrollup" href="">^</a>
+
+<script type="text/javascript" src="myscript.js"> </script>
+</body>
+</html>

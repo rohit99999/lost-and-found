@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>informationfrom</title>
+<link type="text/css" href="cssmain.css" rel="stylesheet">
+<link href="bootstrap.css" rel="stylesheet">
+<script type="text/javascript"  src="jquery-3.3.1.js" ></script>
+<script type="text/javascript" src="scroll.js"> </script>
+<script type="text/javascript" src="myscript.js"> </script>
+</head>
+<style>
+
+.rr{
+width:350px;
+  background-color: #32CD32;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+ 
+  opacity: 0.9;
+}
+.rr:hover {
+  opacity:5;
+background-color:#32CD32;
+}
+</style>
+
+<body  bgcolor="#011A2E">
+	<div id="header">
+		<img  id="img2" src="img/LostandFoundLogo.png">
+		<ul class="parent">
+		<li><a href="main.html">HOME</a></li>
+		<li><a href="lost.html">SEARCH</a></li>
+		<li><a style="background-color: #32CD32;" href="found.html">FOUND</a></li>
+		<!-- <li><a href="main.html#location">CONTACT</a></li> -->
+	
+		<li><a href="feedbackNew.html">FEEDBACK</a></li>
+		
+			<li><a style="background-color:red" href="index.jsp">LOG OUT</a></li>
+	
+	
+		<!-- <li><a href="test.html">TEST</a></li> -->
+		</ul>
+	</div>
+
+
+	<div class="mycontainer">
+		<div class="container">
+			<div class="col-md-5">
+	   			 <div class="form-area">  
+	       			 <form role="form" method="post" action="founditemform.jsp">
+	        				<br style="clear:both">
+	                    <h3 style="margin-bottom: 25px; text-align: center;">Contact Information</h3>
+	    				<div class="form-group">
+							<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" id="phone" name="phone" placeholder="Mobile Number" required>
+						</div>
+						<hr>
+						<h3>Item Information</h3>
+						<div class="form-group">
+							<input type="text" class="form-control" id="city" name="city" placeholder="City in which you find/lost item" required>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" id="state" name="state" placeholder="State" required>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" id="pin" name="pin" placeholder="PIN" required>
+						</div>
+						
+						
+						<div class="form-group">
+							<input type="text" class="form-control" id="ddate" name="ddate" placeholder="Give Date when you find/lost item" required>
+						</div>
+						<div class="form-group">
+							<label for="item">Please Select Item</label>
+							  	<select class="form-control" id="item" name="item">
+							    	<option value="Umbrella">Umbrella</option>
+
+							       <option value="Keys">Keys</option>
+
+							       <option value="Wallet">Wallet</option>
+
+							       <option value="Cell Phone">CellPhone</option>
+
+							       <option value="PDA">PDA</option>
+
+							       <option value="Book">Book</option>
+
+							       <option value="Agenda/Portfolio">Agenda/Portfolio</option>
+
+							       <option value="Lunch Bag/Box">Lunch Bag/Box</option>
+
+							       <option value="Backpack/Briefcase">Backpack/Briefcase</option>
+
+							       <option value="Pocketbook/Purse">Pocketbook/Purse</option>
+
+							       <option value="Jacket/Sweater">Jacket/Sweater</option>
+
+							       <option value="ID/Employee Badge">ID/Employee Badge</option>
+
+							       <option value="Other">Other (describe below)</option>
+							  </select>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" id="place" name="place" placeholder="Place where u find/lost item " required>
+						</div>
+	                    <div class="form-group">
+	                    <textarea class="form-control" type="textarea" id="description" name="description" placeholder="Please give a description of the found/lost item" maxlength="140" rows="7"></textarea>	                                 
+	                    </div>
+	                    <div class="form-group">
+							<input type="text" class="form-control" id="comment" name="comment" placeholder="Lost/Found" required>
+						</div>
+
+	        			<input type="submit" value="Submit" class="rr" >
+	       		 	</form>
+	    		</div>
+			</div>
+		</div>
+	</div>
+
+
+
+<div  style="margin-top: 10px;" id="b4">
+<h4 style="color:red" style="font-size:40px">About Us</h4>
+<h5>Finding Things Since 2020</h5>
+<h6 style="color:red">Who Are We</h6>
+<p >We are college students , who build this website for helping people who lost thier<br> things at workplaces,college,shops etc.
+Some people found the items they can also <br> visit our website. If we found your lost thing , then we let you inform as soon as <br>possible within 48 hour .<br><br><br>
+</p>
+<div style="margin-left: 900px" id="b4pics">
+<img src="img/r1.PNG" width="260px" height="250px">
+</div>
+</div>
+<a id="scrollup" href="">^</a>
+	<a id="scrollup" href="">↑</a>
+</body>
+</html>
